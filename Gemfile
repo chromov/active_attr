@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "http://rubygems.org"
 
 gemspec :development_group => :test
 gem "factory_girl", "< 3.0", :group => :test if RUBY_VERSION < "1.9.2"
